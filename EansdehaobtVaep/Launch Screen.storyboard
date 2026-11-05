@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="25098" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="25073"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="832" width="393" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lszg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bka-cG-Hf5">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l2_bg" translatesAutoresizingMaskIntoConstraints="NO" id="BYb-c9-R9u">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="341"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kS-41-u86">
+                                <rect key="frame" x="134" y="367.66666666666669" width="125.33333333333331" height="117"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kunal Cash.png" translatesAutoresizingMaskIntoConstraints="NO" id="89i-jj-uHo">
+                                        <rect key="frame" x="27.666666666666657" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Dfe-L1-4ru"/>
+                                            <constraint firstAttribute="width" constant="70" id="Qng-cX-Yc9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kunal Cash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG0-nN-EaO">
+                                        <rect key="frame" x="0.0" y="90" width="125.33333333333333" height="27"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="qG0-nN-EaO" firstAttribute="top" secondItem="89i-jj-uHo" secondAttribute="bottom" constant="20" id="AqX-jY-Wwa"/>
+                                    <constraint firstItem="89i-jj-uHo" firstAttribute="centerX" secondItem="9kS-41-u86" secondAttribute="centerX" id="FRM-MN-ysi"/>
+                                    <constraint firstAttribute="bottom" secondItem="qG0-nN-EaO" secondAttribute="bottom" id="nON-x0-MBa"/>
+                                    <constraint firstAttribute="trailing" secondItem="qG0-nN-EaO" secondAttribute="trailing" id="oIY-Jv-YUa"/>
+                                    <constraint firstItem="89i-jj-uHo" firstAttribute="top" secondItem="9kS-41-u86" secondAttribute="top" id="rTS-Pj-ciA"/>
+                                    <constraint firstItem="qG0-nN-EaO" firstAttribute="leading" secondItem="9kS-41-u86" secondAttribute="leading" id="szH-3j-kWZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="BYb-c9-R9u" secondAttribute="trailing" id="1qs-f2-Yx2"/>
+                            <constraint firstItem="Bka-cG-Hf5" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="2HG-Sg-Eb0"/>
+                            <constraint firstItem="9kS-41-u86" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2eh-ho-PEg"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstAttribute="bottom" secondItem="Bka-cG-Hf5" secondAttribute="bottom" id="62X-8h-fcM"/>
+                            <constraint firstItem="9kS-41-u86" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BIJ-fi-LU8"/>
+                            <constraint firstItem="BYb-c9-R9u" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="JU3-2t-7mn"/>
+                            <constraint firstItem="BYb-c9-R9u" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Lxj-uy-hjz"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="BYb-c9-R9u" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="YpT-rx-gjY"/>
+                            <constraint firstItem="Bka-cG-Hf5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="a0d-fH-Mk5"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Bka-cG-Hf5" secondAttribute="trailing" id="aCe-NH-nPh"/>
+                            <constraint firstItem="BYb-c9-R9u" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nYg-FW-QRF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Kunal Cash.png" width="144" height="144"/>
+        <image name="l2_bg" width="375" height="341"/>
+        <image name="lszg.png" width="1125" height="2436"/>
+    </resources>
+</document>

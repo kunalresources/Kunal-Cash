@@ -1,0 +1,40 @@
+PODS:
+  - Adjust (5.6.2):
+    - Adjust/Adjust (= 5.6.2)
+  - Adjust/Adjust (5.6.2):
+    - AdjustSignature (= 3.67.0)
+  - AdjustSignature (3.67.0)
+  - Alamofire (5.11.1)
+  - Kingfisher (8.8.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Adjust
+  - Kingfisher
+  - Moya
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Adjust: 62ea53a252534df416676e7ac2f1558d60e6e39e
+  AdjustSignature: 9498705a4ac67b719e31828be4d74fbb8656950c
+  Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
+  Kingfisher: b6c16059112dd6bdadf3d7ae01472ea1ef01a6b8
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: 68c243a81592d70b41df530a290b49f2ea44220c
+
+COCOAPODS: 1.16.2
